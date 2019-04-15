@@ -1,4 +1,4 @@
-#Build Face recognizer with OpenCV
+# Build Face recognizer with OpenCV
 ## https://medium.com/@patrickhk/face-recognition-with-opencv-without-deep-learning-435cb6d36a53
 ![1](https://cdn-images-1.medium.com/max/800/1*mPSyO1IuFk19ULH8pzMNsg.jpeg)<br/>
 #### In short, face recognition is doing the following things:
@@ -29,7 +29,7 @@ Remember to build dict to map the integer label form to text form for output pre
 
 By using the cv2.face.LBPHFaceRecognizer you will get two results, the label_id and confidence value. Worth notice that confidence value is the distance to the predicted label, therefore this value should be lower is better. Initially I didn’t realize it therefore the recognizer cannot predict well. You can set a threshold value for the confidence to reduce false positive result.
 
-Here are some results:
+Here are some results:<br/>
 ![3](https://cdn-images-1.medium.com/max/600/1*KPoY58i7GRqTTG7eOI0RVA.jpeg)
 ![4](https://cdn-images-1.medium.com/max/600/1*CAbNl3JGmt8wbZQXQagRPQ.jpeg)
 
